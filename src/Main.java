@@ -8,5 +8,7 @@ public class Main {
         String world = "Universe";
         world = world.toLowerCase();
         System.out.println(world.contains("u"));
+        Automovel auto = new Automovel();
+        auto.desligar();
     }
 }
