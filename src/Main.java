@@ -8,7 +8,9 @@ public class Main {
         String world = "Universe";
         world = world.toLowerCase();
         System.out.println(world.contains("u"));
-        Automovel auto = new Automovel();
+        Automovel auto = new Automovel("oi",2009,"Fiat");
         auto.desligar();
+        Carro carro = new Carro("Honda", 1991, "SUV",3, "SJAO+D", Boolean.TRUE);
+
     }
 }
