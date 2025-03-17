@@ -9,6 +9,6 @@ public class Main {
         world = world.toLowerCase();
         System.out.println(world.contains("u"));
         Automovel auto = new Automovel();
-        auto.desligar();
-    }
+        auto.desligar();}
+    Moto moto = new Moto("Honda", 2005, "CG 160", "Street", "V8", True);
 }
