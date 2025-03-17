@@ -1,4 +1,4 @@
-public class Automovel {
+abstract class Automovel {
     private String marca;
     private Integer anoDeFabricacao;
     private String modelo;
