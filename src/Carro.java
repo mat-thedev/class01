@@ -2,6 +2,7 @@ public class Carro extends Automovel {
     private Integer qtdPortas;
     private String motor;
     private Boolean direcaoHidraulica;
+
     public Carro(String marca, Integer anoDeFabricacao, String modelo){
             super(marca, anoDeFabricacao, modelo);
     }
