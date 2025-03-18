@@ -3,6 +3,12 @@ abstract class Automovel {
     private Integer anoDeFabricacao;
     private String modelo;
 
+    public Automovel(String marca, Integer anoDeFabricacao, String modelo) {
+        this.marca = marca;
+        this.anoDeFabricacao = anoDeFabricacao;
+        this.modelo = modelo;
+    }
+
     public String getMarca() {
         return marca;
     }
